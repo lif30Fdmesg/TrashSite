@@ -1,0 +1,135 @@
+html {
+    background-color: beige;
+    font-family: "Arial", Times, serif;
+}
+body {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 70em;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 100%;
+    background-color: rgb(206, 214, 227);
+}
+header {
+    position: relative;
+    background-image: url(../_images/CNC_ps.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 10em;
+    margin-bottom: -1.8em;
+}
+header a {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+nav {
+    position: relative;
+    z-index: 1;
+    background-color: azure;
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 50px;
+    margin-bottom: 1em;
+}
+nav li {
+    float: left;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+nav li a:link, nav li a:visited{
+    text-decoration: none;
+}
+nav li .border {
+    border-right: 1px solid grey;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+h2.ie{
+	clear: both;
+}
+#containers {
+    float: right;
+    width: 80%;
+}
+#tabContainer {
+    position: relative;
+    width: 100%;
+}
+#tabs {
+    position: fixed;
+    left: 10%;
+    top: 35%;
+    z-index: 1;
+    background-color: azure;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 15%;
+    margin: 20px;
+}
+#tabs li {
+    margin: auto;
+    padding: 5px 0px;
+    margin: 5px 0px;
+    width: 100%;
+    list-style-type: none;
+}
+#tabs li a:link, #tabs li a:visited {
+    text-decoration: none;
+}
+#tabs ul {
+    text-align: center;
+    margin: inherit;
+    padding: inherit;
+}
+div#containers img {
+    width: 50%;
+    height: auto;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    float: right;
+}
+main {
+    position: relative;
+    width: 90%;
+    margin: 10px auto;
+    margin-bottom: 1em;
+}
+aside {
+    padding-left: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+    clear: both;
+    width: 95%;
+    margin: auto;
+    background-color: azure;
+    margin-bottom: 1em;
+}
+#contactBuilding {
+    margin: 30px 0px;
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+main div#map-canvas {
+    margin: 20px 20px;
+    float: right;
+    width: 70%;
+    height: 600px;
+    background-color: #CCC;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    border-top: 2px solid grey;
+    height: 20px;
+    clear: both;
+}
